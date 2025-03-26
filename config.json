@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "TA"
+  },
+  "text": {
+    "more": "",
+    "intro": " a network of how rural tourism perceived in Bali, at government and providers scale",
+    "title": "Network Analysis - Rural Tourism Roles in Bali"
+  },
+  "legend": {
+    "edgeLabel": "Intensity/ Weight of each themes",
+    "colorLabel": "Thematic Analysis Group Types",
+    "nodeLabel": "Generate Themes from Dominant Codes"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Betweenness Centrality",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
